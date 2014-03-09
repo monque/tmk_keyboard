@@ -7,7 +7,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS, \
         CAPS,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,  \
         LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT, \
-        LCTL,FN0, LALT,          SPC,                     LGUI,FN0, FN1, FN2),
+        LCTL,LGUI, LALT,          SPC,                    LGUI,FN0, FN1, FN2),
 
     /* 1: monque custom layer */
     KEYMAP_ANSI(
@@ -15,7 +15,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
         LCTL,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS, \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,          TRNS, \
-        CAPS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS),
+        CAPS,FN0, TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS),
 
     /* 2: Poker Fn */
     KEYMAP_ANSI(
