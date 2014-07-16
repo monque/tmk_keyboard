@@ -52,6 +52,7 @@ You can find some keyboard specific projects under `converter` and `keyboard` di
 * [IIgs_Standard](keyboard/IIgs/)           - Apple [IIGS] keyboard mod(by JeffreySung)
 * [macway](keyboard/macway/)                - [Compact keyboard mod][GH_macway] [retired]
 * [KMAC](keyboard/kmac/)                    - Korean custom keyboard
+* [Lightsaber](keyboard/lightsaber/)        - Korean custom keyboard
 
 [GH_macway]:    http://geekhack.org/showwiki.php?title=Island:11930
 [GH_hhkb]:      http://geekhack.org/showwiki.php?title=Island:12047
@@ -150,6 +151,7 @@ To avoid configuring accidentally additive salt key `KC_SPACE` also needs to be 
 - Disable Gui(`Left Gui`)
 - Swap Grave and Escape(`Grave`)
 - Swap BackSlash and BackSpace(`Back Slash`)
+- Enable NKRO on boot(`N`)
 
 #### Default Layer
 - Set Default Layer to 0(`0`)
