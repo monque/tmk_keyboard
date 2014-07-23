@@ -39,7 +39,7 @@
 #----------------------------------------------------------------------------
 
 # Target file name (without extension).
-TARGET = RedScarfII_lufa
+TARGET = rs77_lufa
 
 # Directory common source filess exist
 TOP_DIR = ../..

@@ -26,7 +26,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
         TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,P7,  P8,  P9,  PPLS, \
         CAPS,A,   S,   D,   F,   G,   H,   J,   K,   L,   FN2, QUOT,     ENT, P4,  P5,  P6   ,     \
         LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,P1,  P2,  P3   ,     \
-        LCTL,LGUI,LALT,                              SPC, RALT,FN0, FN1, RCTL,     P0,  PDOT,PENT),
+        LCTL,LGUI,LALT,          SPC,                     RALT,FN0, FN1, RCTL,     P0,  PDOT,PENT),
 
     /* 1: Default OS X */
     KEYMAP_TKG(
@@ -34,7 +34,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
         TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,P7,  P8,  P9,  PPLS, \
         CAPS,A,   S,   D,   F,   G,   H,   J,   K,   L,   FN2, QUOT,     ENT, P4,  P5,  P6   ,     \
         LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,P1,  P2,  P3   ,     \
-        LCTL,LALT,LGUI,                              SPC, RALT,FN0, FN1, RCTL,     P0,  PDOT,PENT),
+        LCTL,LALT,LGUI,          SPC,                     RALT,FN0, FN1, RCTL,     P0,  PDOT,PENT),
 
     /* 2: monque Custom */
     KEYMAP_TKG(
@@ -42,7 +42,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
         LCTL,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS ,     \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,          TRNS,TRNS,TRNS,TRNS ,     \
-        FN0, TRNS,TRNS,                              TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
+        FN0, TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
 
     /* 3: Fn Poker */
     KEYMAP_TKG(
@@ -50,7 +50,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
         TRNS,TRNS,TRNS,UP,  TRNS,TRNS,CALC,TRNS,INS, TRNS,PSCR,SLCK,PAUS,TRNS,TRNS,TRNS,TRNS,TRNS, \
         CAPS,TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,TRNS,TRNS,TRNS,HOME,PGUP,     TRNS,TRNS,TRNS,TRNS ,     \
         TRNS,TRNS,APP, FN3, FN4, FN5, VOLD,VOLU,MUTE,END, PGDN,          TRNS,TRNS,TRNS,TRNS ,     \
-        TRNS,TRNS,TRNS,                              TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
+        TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
 
     /* 4: Fn Selector */
     KEYMAP_TKG(
@@ -58,7 +58,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
         TRNS,TRNS,FN7, TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS ,     \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,FN8, TRNS,TRNS,TRNS,          FN6, TRNS,TRNS,TRNS ,     \
-        TRNS,TRNS,TRNS,                              TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
+        TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
 
     /* 5: Mouse mode */
     KEYMAP_TKG(
@@ -66,7 +66,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
         TRNS,WH_U,WH_L,MS_U,WH_R,TRNS,TRNS,BTN4,TRNS,BTN5,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
         TRNS,WH_D,MS_L,MS_D,MS_R,TRNS,TRNS,BTN1,BTN3,BTN2,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS ,     \
         TRNS,TRNS,ACL0,ACL1,ACL2,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,          TRNS,TRNS,TRNS,TRNS ,     \
-        TRNS,TRNS,TRNS,                              BTN1,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
+        TRNS,TRNS,TRNS,          BTN1,                    TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS),
 
 };
 
